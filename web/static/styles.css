@@ -1,0 +1,33 @@
+/* Modifications to used bootstrap file */
+.thirtyFiveMmSpan:hover, .austinSpan:hover {
+	transition-duration: 3s;
+}
+
+th {
+	font-weight: normal !important;
+}
+
+#welcomeDiv {
+	border: 2px dotted;
+	text-align: center;
+}
+
+#welcomeSpan {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.thirtyFiveMmSpan:hover {
+	background-color: thistle;
+}
+
+.austinSpan:hover {
+	background-color: cornsilk;
+}
+
+@media only screen and (max-width: 767px) {
+	footer div {
+		background-color: #007bff !important;
+		color: #fff;
+	}
+}
